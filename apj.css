@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+
+
+.img-con {
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.text {
+    margin: 190px 0px 0px 0px;
+
+}
+
+
+.text h1 {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-con,
+img {
+    width: 250px;
+    height: 300px;
+}
+
+/* SECOND SECTION */
+.about-section {
+    margin-top: 100px;
+}
+
+.about-section h2 {
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.about-section p {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* .biograpy {
+    margin: 30px 30px;
+} */
+
+.biograpy {
+    margin: 50px 0px;
+}
+
+.biograpy h3 {
+    list-style: uppercase;
+    font-family: verdana;
+    font-weight: 50;
+    margin-bottom: 20px;
+}
+
+.biograpy ul {
+    margin-left: 30px;
+}
+
+.biograpy ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
